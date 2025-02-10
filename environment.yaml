@@ -1,0 +1,17 @@
+name: duckdb
+channels:
+  - conda-forge
+  - defaults
+ 
+dependencies:
+  - ipykernel
+  - pip
+  - pip:
+    - pygeofilter
+    - duckdb
+    - shapely
+    - pystac_client
+    - stac-geoparquet
+    - pytest
+    - tzdata
+    - folium
